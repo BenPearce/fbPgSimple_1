@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.appforward.event32" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.appforward.event32" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>fbPgSimple_1</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -11,4 +11,8 @@
     <access origin="*" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
+        <gap:plugin name="com.phonegap.plugins.facebookconnect" version="<=0.4.0">
+    <param name="APP_ID" value="253970731442450" />
+    <param name="APP_NAME" value="event32ios" />
+</gap:plugin>
 </widget>
